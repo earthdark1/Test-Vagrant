@@ -26,7 +26,7 @@ sudo apt-get -y install nginx
 #GIDHUB
 sudo apt-get -y install git
 cd /var/www/html
-sudo gh repo clone https://github.com/earthdark1/Test-Vagrant.git
+sudo git clone https://github.com/earthdark1/Test-Vagrant
 sudo cp /Test-Vagrant/index.html /var/www/html/index.nginx-debian.html
 
 sudo service nginx start the server
